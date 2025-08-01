@@ -10,14 +10,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  margin-top: 12px;
 }
 
 .card__title {
   font-size: 20px;
   line-height: 1.2;
-  font-family: "poppins-medium", Arial, Helvetica, sans-serif;
+  max-width: 288px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #212121;
 }
@@ -40,6 +43,11 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    max-width: 250px;
+    font-size: 16px;
   }
 
   .card__content {
