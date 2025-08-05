@@ -20,10 +20,10 @@ BEM, smoothe transitions, hover effects, flexbox, radio buttons, meta tags, and 
 
 **Photos from the project**
 
-[Screenshots - Computer Version](./images/Screenshot%202025-08-01%20150433.png)
-[Screenshots - Computer Version 2](./images/Screenshot%202025-08-01%20150449.png)
-[Screenshots - Tablet Version](./images/Screenshot%202025-08-01%20150514.png)
-[Screenshots - Cell Phone Version](./images/Screenshot%202025-08-01%20150538.png)
+[Screenshots - Computer Version](./images/Screenshot%202025-08-01%20150433-min.png)
+[Screenshots - Computer Version 2](./images/Screenshot%202025-08-01%20150449-min.png)
+[Screenshots - Tablet Version](./images/Screenshot%202025-08-01%20150514-min.png)
+[Screenshots - Cell Phone Version](./images/Screenshot%202025-08-01%20150538-min.png)
 
 **Video from the project**
 
