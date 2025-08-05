@@ -1,21 +1,30 @@
 # Project 3: Spots
 
-### Overview  
+### Overview
 
-* Intro  
-* Figma  
-* Images  
-  
+- Intro
+- Figma
+- Images
+
 **Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
+This is our 3rd project "Spots" and is made using VScode with the help of Figma. It is a profile page that can be displayed easily using computers, tablets and cell phones. Users can update profile images with their names and brief description. Users can also add pictures to share with other people and let them know what the post is about and then people have the option to like the photo if they feel.
+
+**Figma**
+
+- [Link to Github]https://silentrnr.github.io/se_project_spots/
+
+**Techniques used**
+
+BEM, smoothe transitions, hover effects, flexbox, radio buttons, meta tags, and responsive designing
+
+**Photos from the project**
+
+[Screenshots - Computer Version](./images/Screenshot%202025-08-01%20150433.png)
+[Screenshots - Computer Version 2](./images/Screenshot%202025-08-01%20150449.png)
+[Screenshots - Tablet Version](./images/Screenshot%202025-08-01%20150514.png)
+[Screenshots - Cell Phone Version](./images/Screenshot%202025-08-01%20150538.png)
+
+**Video from the project**
+
+- [Link to video]https://drive.google.com/file/d/1wZydAW48L2DQ-BTx55vMgp_O9PZqwL0_/view?usp=sharing
