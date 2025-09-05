@@ -27,7 +27,7 @@
   color: #212121;
 }
 
-.card__like-button {
+.card__like-btn {
   background-image: url(../images/heart.svg);
   height: 20px;
   width: 23px;
@@ -36,7 +36,7 @@
   opacity: 40%;
 }
 
-.card__like-button:hover {
+.card__like-btn:hover {
   opacity: 100%;
   transition: 0.5s;
   cursor: pointer;
@@ -57,7 +57,7 @@
     line-height: 100%;
   }
 
-  .card__like-button {
+  .card__like-btn {
     height: 18px;
     width: 20px;
   }
