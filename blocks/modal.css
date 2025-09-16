@@ -86,7 +86,7 @@
   box-sizing: border-box;
 }
 
-.modal__iput::placeholder {
+.modal__input::placeholder {
   color: #2121214d;
 }
 
