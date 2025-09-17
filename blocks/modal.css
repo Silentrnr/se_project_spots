@@ -24,6 +24,13 @@
   transition-delay: 0s;
 }
 
+.modal_opened {
+  /*added*/
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
 .modal__container {
   max-width: 730px;
   width: 100%;
@@ -111,5 +118,9 @@
 
   .modal__input {
     font-size: 16px;
+  }
+
+  .modal__container {
+    padding: 22px 12px 12px;
   }
 }
