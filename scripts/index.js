@@ -59,14 +59,14 @@ function handleNewPostSubmit(evt) {
   console.log(newPostDescriptionInput.value);
 
   closeModal(newPostModal);
+}
 
-  function openModal(modal) {
-    modal.classlist.add("modal_is-opened");
-  }
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
 
-  function openModal(modal) {
-    modal.classList.remove("modal_is-opened");
-  }
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
 }
 
 newPostForm.addEventListener("submit", handleNewPostSubmit);
