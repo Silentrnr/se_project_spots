@@ -99,6 +99,6 @@ function closeModal(modal) {
 newPostForm.addEventListener("submit", handleNewPostSubmit);
 
 initialCards.forEach(function (item) {
-  console.log(Item.name);
+  console.log(item.name);
   console.log(item.link);
 });
