@@ -15,7 +15,11 @@
   font-weight: 500;
   line-height: 1;
   color: #212121;
-  padding: 10px;
+  padding: 0 10px;
+}
+
+.modal_type_preview {
+  padding: 0 16px;
 }
 
 .modal_is-opened {
@@ -25,7 +29,6 @@
 }
 
 .modal_opened {
-  /*added*/
   visibility: visible;
   opacity: 1;
   transition-delay: 0s;
@@ -49,22 +52,51 @@
   height: 40px;
   opacity: 40%;
   background-color: #fff;
+  background: transparent url("../images/close-icon.png") center no-repeat;
+  background-size: 35px 35px;
   border: none;
   padding: 0;
+  margin: 0;
   cursor: pointer;
+}
+
+.modal__close-btn_type_preview {
+  position: absolute;
+  background: transparent;
+  border: none;
+  padding: 0;
+  top: 0;
+  right: -52.5px;
+}
+
+.modal__close-btn_type_preview:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 40%;
+}
+
+.modal__close-btn:hover {
+  opacity: 100%;
+  transition: 0.5s;
 }
 
 .modal__submit-btn {
   background-color: #212121;
   color: #fcf5e5;
   border-radius: 8px;
+  border: none;
+  line-height: 1;
   height: 52px;
   max-width: 156px;
   width: 100%;
   font-size: 16px;
   cursor: pointer;
-  /* Adding padding pushed text down and couldn't figure out how to center it without
-  removing the padding */
+  padding: 18px 0;
+}
+
+.modal__submit-btn:hover {
+  opacity: 80%;
+  transition: 0.5s;
 }
 
 .modal__title {
@@ -98,17 +130,28 @@
   color: #2121214d;
 }
 
-.modal__close-btn:hover {
-  opacity: 100%;
-  transition: 0.5s;
+.modal__image {
+  max-width: 80vw;
+  max-height: 80vh;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
 }
 
-.modal__submit-btn:hover {
-  opacity: 80%;
-  transition: 0.5s;
+.modal__image-content {
+  position: relative;
 }
 
-@media screen and (max-width: 627px) {
+.modal__caption {
+  color: #fff;
+  background-color: #212121;
+  padding: 4px 8px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 480px) {
   .modal__submit-btn {
     max-width: none;
   }
@@ -124,9 +167,22 @@
 
   .modal__input {
     font-size: 16px;
+    margin-bottom: 24px;
   }
 
   .modal__container {
     padding: 22px 12px 12px;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  /* Placed below the 480px media queury to avoid beling overwritten. */
+  .modal__close-btn_type_preview {
+    top: -48px;
+    right: 0;
+  }
+
+  .modal__image {
+    max-width: unset;
   }
 }
